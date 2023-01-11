@@ -1,47 +1,159 @@
 body{
     background-color:white;
     margin: 0;
+
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Merriweather', serif;
+    color: rgb(91, 88, 88);
     
 }
 
+.profile{
+  padding-bottom: 20px;
+}
+
 h1{
+  font-size: 5em;
+  color: rgb(199, 51, 110);
+  /*  100%-> 16px   562.5%->90px  1em=16px*/
    margin-top: 10px;
    font-family: 'Sacramento', cursive;
 }
 
 h2{
+  padding-top: 20px;
+  padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(199, 51, 110);
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: rgb(199, 51, 110);
+    font-weight: bold;
+    padding-bottom: 10px;
+    
 }
 .top-container{
-    background-color:rgb(248, 207, 226) ;
+    background-color:rgb(242, 204, 221) ;
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 
 }
 .middle-container{
    margin:0px;
    padding-top: 10px;
-    background-color:rgb(166, 107, 135)
+    background-color:rgb(244, 244, 244)
 
   }
   .bottom-container{
-    background-color: rgb(158, 4, 97);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    line-height: 2;
+    background-color: rgb(232, 56, 161);
+    font-family: 'Montserrat', sans-serif;
    
   }
   .top-cloud{
     position: absolute;
     right: 300px;
     top: 50px;
+ 
   }
   .bottom-cloud{
     position: absolute;
     left: 300px;
     bottom: 100px;
+    
   }
+
+  a{
+    color: rgb(246, 152, 199);
+  }
+
+  .skill-row{
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .tv{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(146, 143, 135);
+    border-width:5px;
+    width: 5%;
+  }
+
+  .neha{
+    width: 13%;
+  }
+
+  .contact-me{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .btn {
+    background: #f5b6e6;
+    background-image: -webkit-linear-gradient(top, #f5b6e6, #ad75a7);
+    background-image: -moz-linear-gradient(top, #f5b6e6, #ad75a7);
+    background-image: -ms-linear-gradient(top, #f5b6e6, #ad75a7);
+    background-image: -o-linear-gradient(top, #f5b6e6, #ad75a7);
+    background-image: linear-gradient(to bottom, #f5b6e6, #ad75a7);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #9e5284;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ed76bd;
+    background-image: -webkit-linear-gradient(top, #ed76bd, #e86dc1);
+    background-image: -moz-linear-gradient(top, #ed76bd, #e86dc1);
+    background-image: -ms-linear-gradient(top, #ed76bd, #e86dc1);
+    background-image: -o-linear-gradient(top, #ed76bd, #e86dc1);
+    background-image: linear-gradient(to bottom, #ed76bd, #e86dc1);
+    text-decoration: none;
+  }
+
+  .footer-link{
+    margin-right: 20px;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .copyryt{
+    color: white;
+    font-size: 0.75rem;
+  }
+  /* .devlop{
+    clear: left;
+  }
+
+  .ent{
+    clear: right;
+  } */
