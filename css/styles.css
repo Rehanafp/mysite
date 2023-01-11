@@ -61,12 +61,18 @@ h3{
     position: absolute;
     right: 300px;
     top: 50px;
+    width: auto ;
+   max-width: 100% ;
+   height: auto ; 
  
   }
   .bottom-cloud{
     position: absolute;
     left: 300px;
     bottom: 100px;
+      width: auto ;
+  max-width: 100% ;
+  height: auto ;
     
   }
 
